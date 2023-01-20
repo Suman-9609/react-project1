@@ -1,0 +1,54 @@
+.sidebar{
+    height: 750px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.sidebar .sidebar_top{
+    height: 60px;
+    background-color: #088178;
+}
+
+.sidebar .sidebar_top h4{
+    padding-top: 13px;
+}
+
+.sidebar .sidebar_top h4 i{
+    float: right;
+    padding-right: 15px;
+    padding-top: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#sidebar_bottom{
+    height: 690px;
+}
+
+#active{
+    display: block;
+    color: #313131;
+    background-color: #c0edea;
+    padding: 10px 10px;
+    margin: 15px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+#sidebar_bottom nav .nav{
+    display: block;
+    color: #313131;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+
+#sidebar_bottom nav .nav i{
+    padding-right: 10px;
+}
+
+#drop1, #drop2, #drop3, #drop4, #drop5, #drop6, #drop7, #drop8{
+    float: right;
+    padding-top: 5px;
+}
