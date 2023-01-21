@@ -19,6 +19,12 @@ class Sidebar extends React.Component{
             document.getElementById('drop4').className = 'fas fa-angle-right'
             document.getElementById('submenu5').style.display = 'none';
             document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
         }
     }
 
@@ -37,6 +43,12 @@ class Sidebar extends React.Component{
             document.getElementById('drop4').className = 'fas fa-angle-right'
             document.getElementById('submenu5').style.display = 'none';
             document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
         }
     }
 
@@ -55,6 +67,12 @@ class Sidebar extends React.Component{
             document.getElementById('drop4').className = 'fas fa-angle-right'
             document.getElementById('submenu5').style.display = 'none';
             document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
         }
     }
 
@@ -73,6 +91,12 @@ class Sidebar extends React.Component{
             document.getElementById('drop1').className = 'fas fa-angle-right';
             document.getElementById('submenu5').style.display = 'none';
             document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
         }
     }
 
@@ -83,6 +107,84 @@ class Sidebar extends React.Component{
         }else{
             document.getElementById('submenu5').style.display = 'block';
             document.getElementById('drop5').className = 'fas fa-angle-down';
+            document.getElementById('submenu4').style.display = 'none';
+            document.getElementById('drop4').className = 'fas fa-angle-right'
+            document.getElementById('submenu3').style.display = 'none';
+            document.getElementById('drop3').className = 'fas fa-angle-right'
+            document.getElementById('submenu2').style.display = 'none';
+            document.getElementById('drop2').className = 'fas fa-angle-right';
+            document.getElementById('submenu1').style.display = 'none';
+            document.getElementById('drop1').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
+        }
+    }
+
+    showMenu6 = () =>{
+        if(document.getElementById('submenu6').style.display === 'block'){
+            document.getElementById('submenu6').style.display = 'none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+        }else{
+            document.getElementById('submenu6').style.display ='block';
+            document.getElementById('drop6').className = 'fas fa-angle-down';
+            document.getElementById('submenu5').style.display = 'none';
+            document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu4').style.display = 'none';
+            document.getElementById('drop4').className = 'fas fa-angle-right'
+            document.getElementById('submenu3').style.display = 'none';
+            document.getElementById('drop3').className = 'fas fa-angle-right'
+            document.getElementById('submenu2').style.display = 'none';
+            document.getElementById('drop2').className = 'fas fa-angle-right';
+            document.getElementById('submenu1').style.display = 'none';
+            document.getElementById('drop1').className = 'fas fa-angle-right';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
+        }
+    }
+
+    showMenu7 = () =>{
+        if(document.getElementById('submenu7').style.display === 'block'){
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+        }else{
+            document.getElementById('submenu7').style.display = 'block';
+            document.getElementById('drop7').className = 'fas fa-angle-down';
+            document.getElementById('submenu6').style.display ='none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu5').style.display = 'none';
+            document.getElementById('drop5').className = 'fas fa-angle-right';
+            document.getElementById('submenu4').style.display = 'none';
+            document.getElementById('drop4').className = 'fas fa-angle-right'
+            document.getElementById('submenu3').style.display = 'none';
+            document.getElementById('drop3').className = 'fas fa-angle-right'
+            document.getElementById('submenu2').style.display = 'none';
+            document.getElementById('drop2').className = 'fas fa-angle-right';
+            document.getElementById('submenu1').style.display = 'none';
+            document.getElementById('drop1').className = 'fas fa-angle-right';
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
+        }
+    }
+
+    showMenu8 =  () =>{
+        if(document.getElementById('submenu8').style.display === 'block'){
+            document.getElementById('submenu8').style.display = 'none';
+            document.getElementById('drop8').className = 'fas fa-angle-right';
+        }else{
+            document.getElementById('submenu8').style.display = 'block';
+            document.getElementById('drop8').className = 'fas fa-angle-down';
+            document.getElementById('submenu7').style.display = 'none';
+            document.getElementById('drop7').className = 'fas fa-angle-right';
+            document.getElementById('submenu6').style.display ='none';
+            document.getElementById('drop6').className = 'fas fa-angle-right';
+            document.getElementById('submenu5').style.display = 'none';
+            document.getElementById('drop5').className = 'fas fa-angle-right';
             document.getElementById('submenu4').style.display = 'none';
             document.getElementById('drop4').className = 'fas fa-angle-right'
             document.getElementById('submenu3').style.display = 'none';
@@ -143,9 +245,27 @@ class Sidebar extends React.Component{
                                             <NavLink to='/' className='nav'><i class="far fa-circle"></i> View Library </NavLink>
                                         </div>
 
-                                        <NavLink to='/' className='nav'><i class="fas fa-calendar-alt"></i> Attendance <i id='drop6' className='fas fa-angle-right'></i></NavLink>
-                                        <NavLink to='/' className='nav'><i class="fas fa-rupee-sign"></i> Fees <i id='drop7' className='fas fa-angle-right'></i></NavLink>
-                                        <NavLink to='/' className='nav'><i class="fas fa-user"></i> User <i id='drop8' className='fas fa-angle-right'></i></NavLink>
+                                        <NavLink to='' className='nav' onClick={this.showMenu6}><i class="fas fa-calendar-alt"></i> Attendance <i id='drop6' className='fas fa-angle-right'></i></NavLink>
+
+                                        <div id='submenu6'>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> Add Attendance </NavLink>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> View Attendance </NavLink>
+                                        </div>
+
+                                        <NavLink to='' className='nav' onClick={this.showMenu7}><i class="fas fa-rupee-sign"></i> Fees <i id='drop7' className='fas fa-angle-right'></i></NavLink>
+
+                                        <div id='submenu7'>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> Add Fee </NavLink>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> View Fee </NavLink>
+                                        </div>
+
+                                        <NavLink to='' className='nav' onClick={this.showMenu8}><i class="fas fa-user"></i> User <i id='drop8' className='fas fa-angle-right'></i></NavLink>
+
+                                        <div id='submenu8'>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> Add User </NavLink>
+                                            <NavLink to='/' className='nav'><i class="far fa-circle"></i> View User </NavLink>
+                                        </div>
+
                                     </nav>
                                 </div>
                             </div>
