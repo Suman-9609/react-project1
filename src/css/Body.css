@@ -1,0 +1,97 @@
+.top__header{
+    height: 60px;
+    background-color: #0e3eda;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+.top__header i{
+    float: right;
+    padding-top: 21px;
+    font-size: 1.1rem;
+    color: #e1e1e1;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.card1{
+    height: 100px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.card1 .card1__top{
+    height: 70px;
+    /* background-color: red; */
+}
+
+.card1 .card1__top .card1__left{
+    height: 70px;
+    width: 70%;
+    float: left;
+    /* background-color: green; */
+}
+
+.card1 .card1__top .card1__right{
+    height: 70px;
+    width: 30%;
+    float: left;
+    /* background-color: yellow; */
+}
+
+.card1 .card1__top .card1__left .card1__title{
+    padding: 13px 10px 5px 15px;
+    color: #ff8b13;
+    font-weight: 600;
+}
+
+.card1 .card1__top .card1__left .card1__num{
+    padding: 0 10px 5px 15px;
+    font-weight: 500;
+}
+
+.card1 .card1__top .card1__right i{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: #ff8b13;
+}
+
+.card1 .card1__bottom{
+    height: 30px;
+    background-color: #ff8b13;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card1 .card1__bottom .body__nav{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card1 .card1__bottom .body__nav i{
+    float: right;
+    padding-right: 10px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: .9rem;
+}
+
+.chart__area{
+    height: 300px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border-radius: 5px;
+}
+
+.chart__area h5{
+    padding: 15px 10px 5px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ff8b13;
+}
